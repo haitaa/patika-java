@@ -1,3 +1,5 @@
+package DöngülerKoşullar;
+
 import java.util.Scanner;
 
 public class CiftveDordunKati {
