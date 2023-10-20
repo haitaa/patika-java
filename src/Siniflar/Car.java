@@ -1,9 +1,9 @@
 package Siniflar;
 
 class Car {
-    String type;
+    String type = "SUV";
     String model;
-    String color;
+    String color = "black";
     int speed;
     int speedLimit = 180;
 
