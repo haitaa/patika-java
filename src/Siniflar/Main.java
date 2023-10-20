@@ -2,15 +2,11 @@ package Siniflar;
 
 public class Main {
     public static void main(String[] args) {
-        Car audi = new Car();
-        audi.model = "Audi Q8";
-        audi.speed = 120;
-        audi.increaseSpeed(30);
-        System.out.println(audi.model + " Hızı: " + audi.speed);
+        Car audi = new Car("Audi", 90, "black");
+        audi.printInfo();
 
-        Car bmw = new Car();
-        bmw.model = "BMW M8";
-        bmw.speed = 140;
+        /*
+        Car bmw = new Car("BMW", 100, "black");
         bmw.increaseSpeed(40);
         System.out.println(bmw.model + " Hızı: " + bmw.speed);
 
@@ -19,6 +15,6 @@ public class Main {
         mercedes.speed = 130;
         mercedes.increaseSpeed(40);
         System.out.println(mercedes.model + " Hızı: " + mercedes.speed);
-
+        */
     }
 }
